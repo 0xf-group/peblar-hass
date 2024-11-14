@@ -1,0 +1,12 @@
+{
+  "domain": "peblar",
+  "name": "Peblar EV charger",
+  "codeowners": ["@yoricksmeets"],
+  "config_flow": true,
+  "documentation": "https://github.com/0xf-group/hass-peblar",
+  "iot_class": "local_polling",
+  "loggers": ["pypeblar"],
+  "requirements": ["pypeblar==0.3.2"],
+  "version": "0.2.5",
+  "zeroconf": ["_http._tcp.local."]
+}

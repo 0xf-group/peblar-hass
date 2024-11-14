@@ -1,0 +1,6 @@
+colorlog==6.8.2
+ruff==0.7.0
+bump2version
+wheel
+
+pypeblar
